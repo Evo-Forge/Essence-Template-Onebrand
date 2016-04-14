@@ -1,4 +1,4 @@
 ## Implementing UI Kit - based on Essence ReactJS Framework
 
 ### The template
-Inspired from UI8.net - [Caterit UI Kit](https://ui8.net/products/caterit-ui-kit)
+Inspired from UI8.net - [1brand](https://ui8.net/products/onebrand-ui-kit)
