@@ -3,6 +3,46 @@ body {
   margin: 0;
   padding: 0;
 }
+* {
+  box-sizing: border-box;
+}
+.addRedBorder {
+  border: 1px solid red;
+}
+.fullWidth {
+  width: 100%;
+}
+.addPadding15 {
+  padding: 15px;
+}
+.addMargin15 {
+  margin: 15px;
+}
+.addRadius50 {
+  border-radius: 20px!important;
+}
+.flexBox {
+  display: flex;
+}
+.flexColumn {
+  flex-direction: column;
+}
+.alignEnd {
+  align-self: flex-end;
+}
+.alignStart {
+  align-self: flex-start;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.sectionTitle {
+  color: #FFFFFF!important;
+}
+.cardContainer {
+  border-radius: 10px!important;
+  background: #FFFFFF!important;
+}
 footer {
   width: 100%;
   height: 50px;
