@@ -32,6 +32,14 @@ img {
 .addPadding50 {
 	padding: 50px!important;
 }
+.addLatPadding50 {
+	padding-left: 50px!important;
+	padding-right: 50px!important;
+}
+.addVertPadding50 {
+	padding-top: 50px!important;
+	padding-bottom: 50px!important;
+}
 .addMargin15 {
 	margin: 15px;
 }
@@ -116,7 +124,33 @@ img {
 		}
 	}
 }
+.addLeftPadding50 {
+	padding-left: 50px!important;
+}
+.twoColText {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+.quoteText {
+	position: relative;
+	padding-left: 15px;
+	p:before {
+		content: "";
+		display: inline-block;
+		height: 45px;
+		width: 4px;
+		background: #FFA726;
+		position: absolute;
+		left: 0;
+		top: 5px;
+	}
+}
 
+.commentControl {
+	.addBorder(#E0E0E0);
+	.roundedCorners;
+}
 .roundedImg {
 	border-radius: 50%;
 	&.addOrangeBorder {
@@ -128,7 +162,7 @@ img {
 }
 .roundedCorners {
 	border-radius: 10px;
-	input {
+	input, textarea {
 		border-bottom: 0!important;
 		padding-bottom: 0!important;
 		padding-right: 20px!important;

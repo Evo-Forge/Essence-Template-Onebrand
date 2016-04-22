@@ -21,6 +21,14 @@ img {
 .addPadding50 {
   padding: 50px!important;
 }
+.addLatPadding50 {
+  padding-left: 50px!important;
+  padding-right: 50px!important;
+}
+.addVertPadding50 {
+  padding-top: 50px!important;
+  padding-bottom: 50px!important;
+}
 .addMargin15 {
   margin: 15px;
 }
@@ -101,6 +109,43 @@ img {
   background: #FFA747!important;
   color: #FFFFFF!important;
 }
+.addLeftPadding50 {
+  padding-left: 50px!important;
+}
+.twoColText {
+  -webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2;
+}
+.quoteText {
+  position: relative;
+  padding-left: 15px;
+}
+.quoteText p:before {
+  content: "";
+  display: inline-block;
+  height: 45px;
+  width: 4px;
+  background: #FFA726;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.commentControl {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+.commentControl input,
+.commentControl textarea {
+  border-bottom: 0!important;
+  padding-bottom: 0!important;
+  padding-right: 20px!important;
+}
+.commentControl.inputStyle {
+  border: 1px solid #e0e0e0;
+}
 .roundedImg {
   border-radius: 50%;
 }
@@ -113,7 +158,8 @@ img {
 .roundedCorners {
   border-radius: 10px;
 }
-.roundedCorners input {
+.roundedCorners input,
+.roundedCorners textarea {
   border-bottom: 0!important;
   padding-bottom: 0!important;
   padding-right: 20px!important;
