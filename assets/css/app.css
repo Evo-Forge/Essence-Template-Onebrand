@@ -51,6 +51,16 @@ img {
 .btn-icon:focus {
   outline: none;
 }
+.btn-icon.headerBtn {
+  padding: 10px 25px;
+}
+.btn-icon.headerBtn.white {
+  border: 1px solid #ffffff;
+}
+.btn-icon.sliderBtn {
+  border: 1px solid #212121;
+  background: transparent!important;
+}
 .fab-icon i {
   margin-top: 10px;
   padding: 0!important;
@@ -216,6 +226,9 @@ img {
 .alignItemsCenter {
   align-items: center;
 }
+.alignItemsStart {
+  align-items: flex-start;
+}
 .alignStrech {
   align-self: stretch;
 }
@@ -313,6 +326,91 @@ h1.addAfter:after {
   border-top: 2px solid #212121;
   width: 80px;
   margin-top: 10px;
+}
+.headerContainer {
+  overflow: hidden;
+  position: relative;
+}
+.headerContainer .largeText {
+  font-size: 80px;
+  font-weight: bolder;
+}
+.headerContainer .layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px 20px 70px 70px;
+}
+.headerContainer .layerTransparent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+}
+.headerContainer .hugeText {
+  font-size: 300px;
+  font-weight: bolder;
+  opacity: 0.3;
+  margin-left: -15%;
+  margin-top: 30%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.headerContainer .logo {
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.headerContainer .logo .disc {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.headerContainer .logo .disc .one {
+  margin-bottom: -8px;
+  margin-right: -10px;
+}
+.headerContainer .logo .disc.large {
+  width: 40px;
+  height: 40px;
+  font-size: 35px;
+}
+.headerContainer .logo .disc.large .one {
+  margin-bottom: -12px;
+}
+.headerContainer .logo .fullName {
+  font-size: 20px;
+}
+.headerContainer .middleText {
+  margin-top: 20%;
+}
+.headerContainer .borderBottom {
+  border-bottom: 1px solid #BDBDBD;
+}
+.headerContainer .transparentCard {
+  width: 300px;
+  border-radius: 20px!important;
+  border: 1px solid #bdbdbd;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+.headerContainer .transparentCard .rndBtn {
+  border-bottom-right-radius: 20px!important;
+}
+.headerContainer .transparentCard .price {
+  border-right: 1px solid #BDBDBD;
 }
 .acordeonMenu {
   list-style: none;
