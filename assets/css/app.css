@@ -9,6 +9,9 @@ img {
 * {
   box-sizing: border-box;
 }
+.addCursor {
+  cursor: pointer;
+}
 .addRedBorder {
   border: 1px solid red;
 }
@@ -92,6 +95,10 @@ img {
   top: 20px;
   left: 20px;
   z-index: 1;
+}
+.absoluteBtn.right {
+  left: auto;
+  right: 20px;
 }
 .doubleBtn {
   display: flex!important;
@@ -330,6 +337,12 @@ h1.addAfter:after {
 .headerContainer {
   overflow: hidden;
   position: relative;
+}
+.headerContainer.left {
+  width: 75%;
+}
+.headerContainer.right {
+  width: 25%;
 }
 .headerContainer .largeText {
   font-size: 80px;

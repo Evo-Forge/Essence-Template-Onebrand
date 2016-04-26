@@ -16,7 +16,9 @@ img {
 .brick {
 	// .addBorder(blue);
 }
-
+.addCursor {
+	cursor: pointer;
+}
 .addBorder(@color) {
 	border: 1px solid @color;
 }
@@ -108,6 +110,10 @@ img {
 	top: 20px;
 	left: 20px;
 	z-index: 1;
+	&.right {
+		left: auto;
+		right: 20px;
+	}
 }
 .doubleBtn {
 	display: flex!important;
@@ -360,6 +366,12 @@ h1.addAfter {
 .headerContainer {
 	overflow: hidden;
 	position: relative;
+	&.left {
+		width: 75%;
+	}
+	&.right {
+		width: 25%;
+	}
 	.largeText {
 		font-size: 80px;
 		font-weight: bolder;

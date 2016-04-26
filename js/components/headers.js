@@ -342,9 +342,9 @@ class OnebrandHeaders extends React.Component {
                     </Block>{/* second menu*/}
                   </Block>{/* top menus */}
 
-                  <Block className={'flexBox e-h-center e-v-center'}>
+                  <Block className={'flexBox spaceBetween e-v-center'}>
                     <Block>
-                      <Btn icon={'hardware-keyboard-arrow-left'} ripple={true} type={'fab'} className={'fab e-text-white e-background-blue-700'} />
+                      <Btn icon={'hardware-keyboard-arrow-left'} ripple={true} type={'fab'} className={'fab e-text-grey-900 btn-icon sliderBtn'} />
                     </Block>
                     <Block className={'flexBox flexColumn justCenter alignItemsCenter'}>
                       <Text type={'h1'} className={'e-no-margin largeText'}>
@@ -363,13 +363,164 @@ class OnebrandHeaders extends React.Component {
                     </Block>
                   </Block>
 
-                  <Block>
-                    aici articolele
+                  <Block className={'e-row e-background-white'}>
+                    <Block className={'brick brick-3 e-background-white addPadding15'}>
+                      <Text type={'h1'} className={'e-headline e-text-orange-400 e-no-margin'}>
+                        New collection 2015.
+                      </Text>
+                      <Text type={'h1'} className={'e-headline e-text-orange-400 e-no-margin'}>
+                        Is out now!
+                      </Text>
+                      <Text type={'p'} className={'e-text-grey-900 e-body1'}>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                      </Text>
+                      <List type={'inline'}>
+                        <ListItem className={'flexBox alignItemsCenter'}>
+                          <Btn ripple={true} type={'flat'} icon={'action-favorite-outline'} className={'e-text-grey-900 btn-icon no-min-size'} />
+                          <Text type={'em'} className={'e-text-grey-900 e-body1'}>12</Text>
+                        </ListItem>
+                        <ListItem className={'flexBox alignItemsCenter'}>
+                          <Btn ripple={true} type={'flat'} icon={'editor-insert-comment'} className={'e-text-grey-900 btn-icon no-min-size'} />
+                          <Text type={'em'} className={'e-text-grey-900 e-body1'}>18</Text>
+                        </ListItem>
+                      </List>
+                    </Block>
+
+                    <Block className={'brick brick-3 e-background-white addPadding15'}>
+                      <Text type={'h1'} className={'e-headline e-text-grey-900 e-no-margin'}>
+                        New collection 2015.
+                      </Text>
+                      <Text type={'h1'} className={'e-headline e-text-grey-900 e-no-margin'}>
+                        Is out now!
+                      </Text>
+                      <Text type={'p'} className={'e-text-grey-900 e-body1'}>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                      </Text>
+                      <List type={'inline'}>
+                        <ListItem className={'flexBox alignItemsCenter'}>
+                          <Btn ripple={true} type={'flat'} icon={'action-favorite-outline'} className={'e-text-grey-900 btn-icon no-min-size'} />
+                          <Text type={'em'} className={'e-text-grey-900 e-body1'}>12</Text>
+                        </ListItem>
+                        <ListItem className={'flexBox alignItemsCenter'}>
+                          <Btn ripple={true} type={'flat'} icon={'editor-insert-comment'} className={'e-text-grey-900 btn-icon no-min-size'} />
+                          <Text type={'em'} className={'e-text-grey-900 e-body1'}>18</Text>
+                        </ListItem>
+                      </List>
+                    </Block>
+
+                    <Block className={'brick brick-3 e-background-white addPadding15'}>
+                      <Text type={'h1'} className={'e-headline e-text-grey-900 e-no-margin'}>
+                        New collection 2015.
+                      </Text>
+                      <Text type={'h1'} className={'e-headline e-text-grey-900 e-no-margin'}>
+                        Is out now!
+                      </Text>
+                      <Text type={'p'} className={'e-text-grey-900 e-body1'}>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                      </Text>
+                      <List type={'inline'}>
+                        <ListItem className={'flexBox alignItemsCenter'}>
+                          <Btn ripple={true} type={'flat'} icon={'action-favorite-outline'} className={'e-text-grey-900 btn-icon no-min-size'} />
+                          <Text type={'em'} className={'e-text-grey-900 e-body1'}>12</Text>
+                        </ListItem>
+                        <ListItem className={'flexBox alignItemsCenter'}>
+                          <Btn ripple={true} type={'flat'} icon={'editor-insert-comment'} className={'e-text-grey-900 btn-icon no-min-size'} />
+                          <Text type={'em'} className={'e-text-grey-900 e-body1'}>18</Text>
+                        </ListItem>
+                      </List>
+                    </Block>
+
+                    <Block className={'brick brick-3 e-background-white addPadding15'}>
+                      <Text type={'h1'} className={'e-headline e-text-grey-900 e-no-margin'}>
+                        New collection 2015.
+                      </Text>
+                      <Text type={'h1'} className={'e-headline e-text-grey-900 e-no-margin'}>
+                        Is out now!
+                      </Text>
+                      <Text type={'p'} className={'e-text-grey-900 e-body1'}>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                      </Text>
+                      <List type={'inline'}>
+                        <ListItem className={'flexBox alignItemsCenter'}>
+                          <Btn ripple={true} type={'flat'} icon={'action-favorite-outline'} className={'e-text-grey-900 btn-icon no-min-size'} />
+                          <Text type={'em'} className={'e-text-grey-900 e-body1'}>12</Text>
+                        </ListItem>
+                        <ListItem className={'flexBox alignItemsCenter'}>
+                          <Btn ripple={true} type={'flat'} icon={'editor-insert-comment'} className={'e-text-grey-900 btn-icon no-min-size'} />
+                          <Text type={'em'} className={'e-text-grey-900 e-body1'}>18</Text>
+                        </ListItem>
+                      </List>
+                    </Block>
                   </Block>
                 </Block>{/* end a .layer*/}
               </Block>{/* end seventh .headerContainer*/}
             </Block>
           </Block>{/* end .e-row*/}
+
+          <Block className={'e-row'}>
+            <Block className={'brick brick-12 flexBox'}>
+              <Block className={'headerContainer addRelative left'}>
+                <Image src={'../assets/img/capmodel1.jpg'} className={'e-img-rsp'} />
+                <Block className={'layer'}>
+                  <Text type={'h1'} className={'hugeText e-text-grey-900'}>LARUS</Text>
+                </Block>{/* end a .layer*/}
+                <Block className={'layer flexBox flexColumn spaceBetween'}>
+                  <Block>
+                    <Block className={'logo flexBox e-v-center'}>
+                      <Block className={'disc e-background-orange-400 e-text-white flexBox e-v-end e-h-center'}>
+                        <Text type={'strong'} className={'one'}>1</Text>
+                      </Block>
+                      <Text className={'fullName'}>
+                        <Text type={'strong'} className={'e-text-orange-400'}>1</Text>
+                        <Text type={'strong'} className={'e-text-white'}>brand</Text>
+                      </Text>
+                    </Block>{/* end .logo*/}
+                  </Block>
+
+                  <Block className={'flexBox flexColumn alignItemsStart'}>
+                    <Text type={'h1'} className={'e-no-margin e-text-white largeText'}>Larus.</Text>
+                    <Text type={'h1'} className={'e-no-margin largeText'}>
+                      <Text className={'e-text-orange-400'}>Express</Text>
+                      <Text className={'e-text-white'}>Yourself</Text>
+                    </Text>
+                    <Text type={'em'} className={'e-text-white'}>Small brand with rich idea</Text>
+                    <Btn label={'KNOW MORE'} ripple={true} type={'flat'} className={'e-text-white addRadius50 btn-icon headerBtn white e-margin-top-25'} />
+                  </Block>
+                </Block>{/* end a .layer*/}
+              </Block>{/*end left .headerContainer*/}
+              <Block className={'headerContainer right e-background-grey-700 addPadding50 flexBox flexColumn justCenter'}>
+                <Block className={'absoluteBtn right'}>
+                  <Btn ripple={true} type={'flat'} icon={'navigation-close'} className={'e-text-white btn-icon no-min-size e-headline'} />
+                </Block>
+                <List className={'e-no-style'}>
+                  <ListItem className={'addPadding15'}>
+                    <Text type={'strong'} className={'e-text-white e-button'}>About</Text>
+                  </ListItem>
+                  <ListItem className={'addPadding15'}>
+                    <Text type={'strong'} className={'e-text-orange-400 e-button'}>Blog</Text>
+                  </ListItem>
+                  <ListItem className={'addPadding15'}>
+                    <Text type={'strong'} className={'e-text-white e-button'}>Services</Text>
+                  </ListItem>
+                  <ListItem className={'addPadding15'}>
+                    <Text type={'strong'} className={'e-text-white e-button'}>Contacts</Text>
+                  </ListItem>
+                </List>
+
+                <List type={'inline'}>
+                  <ListItem className={'e-text-white addCursor'}>
+                    <i className="fa fa-twitter" aria-hidden="true"></i>
+                  </ListItem>
+                  <ListItem className={'e-text-white addCursor'}>
+                    <i className="fa fa-facebook-official" aria-hidden="true"></i>
+                  </ListItem>
+                  <ListItem className={'e-text-white addCursor'}>
+                    <i className="fa fa-dribbble" aria-hidden="true"></i>
+                  </ListItem>
+                </List>
+              </Block>{/* end roght .headerContainer*/}
+            </Block>
+          </Block>{/* end .e-row */}
 
 
         </Block>{/* end .e-container*/}
