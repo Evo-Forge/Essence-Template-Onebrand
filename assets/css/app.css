@@ -378,9 +378,6 @@ h1.addAfter:after {
 .headerContainer .middleText {
   margin-top: 20%;
 }
-.headerContainer .borderBottom {
-  border-bottom: 1px solid #BDBDBD;
-}
 .headerContainer .transparentCard {
   width: 300px;
   border-radius: 20px!important;
@@ -394,6 +391,9 @@ h1.addAfter:after {
 }
 .headerContainer .transparentCard .price {
   border-right: 1px solid #BDBDBD;
+}
+.borderBottom {
+  border-bottom: 1px solid #BDBDBD;
 }
 .logo {
   cursor: pointer;
@@ -455,6 +455,34 @@ h1.addAfter:after {
   line-height: 36px!important;
   height: 36px!important;
   padding-left: 10px!important;
+}
+.brick.navContainer {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+.navBar li {
+  cursor: pointer;
+}
+.navBar li a {
+  color: #FFFFFF;
+}
+.navBar li:hover a,
+.navBar li.active a {
+  color: #FFA726;
+}
+.navBar.darkScheme li a {
+  color: #9E9E9E;
+}
+.navBar.darkScheme li:hover a,
+.navBar.darkScheme li.active a {
+  color: #FFA726;
+}
+.navBar.darkerScheme li a {
+  color: #FFFFFF;
+}
+.navBar.darkerScheme li:hover a,
+.navBar.darkerScheme li.active a {
+  color: #212121;
 }
 .acordeonMenu {
   list-style: none;

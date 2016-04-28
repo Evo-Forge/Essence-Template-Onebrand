@@ -408,9 +408,7 @@ h1.addAfter {
 	.middleText {
 		margin-top: 20%;
 	}
-	.borderBottom {
-		border-bottom: 1px solid #BDBDBD;
-	}
+
 	.transparentCard {
 		width: 300px;
 		.addRadius50;
@@ -426,7 +424,9 @@ h1.addAfter {
 		}
 	}
 }
-
+.borderBottom {
+	border-bottom: 1px solid #BDBDBD;
+}
 //logo
 .logo {
 	cursor: pointer;
@@ -460,7 +460,7 @@ h1.addAfter {
 }
 
 //footers
-.subscribeSpan{
+.subscribeSpan {
  line-height: 36px!important;
  margin-right: 20px;
 }
@@ -489,8 +489,52 @@ h1.addAfter {
   line-height: 36px!important;
   height: 36px!important;
   padding-left: 10px!important;
-
  }
+}
+
+//Navigation
+.brick {
+	&.navContainer {
+		padding-top: 0!important;
+		padding-bottom: 0!important;
+	}
+}
+.navBar {
+	li {
+		cursor: pointer;
+		a {
+			color: #FFFFFF;
+		}
+		&:hover, &.active {
+			a {
+				color: #FFA726;
+			}
+		}
+	}
+	&.darkScheme {
+		li {
+			a {
+				color: #9E9E9E;
+			}
+			&:hover, &.active {
+				a {
+					color: #FFA726;
+				}
+			}
+		}
+	}
+	&.darkerScheme {
+		li {
+			a {
+				color: #FFFFFF;
+			}
+			&:hover, &.active {
+				a {
+					color: #212121;
+				}
+			}
+		}
+	}
 }
 
 // .acordeonMenu strarts here

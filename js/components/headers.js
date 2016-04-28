@@ -518,7 +518,7 @@ class OnebrandHeaders extends React.Component {
                     <i className="fa fa-dribbble" aria-hidden="true"></i>
                   </ListItem>
                 </List>
-              </Block>{/* end roght .headerContainer*/}
+              </Block>{/* end eight .headerContainer*/}
             </Block>
           </Block>{/* end .e-row */}
 
